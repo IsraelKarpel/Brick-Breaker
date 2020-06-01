@@ -1,0 +1,50 @@
+
+# Single block direct hit
+
+
+START_LEVEL
+level_name: MagenDavid
+ball_velocities:0,5 47,15 40,20 100,10
+background:color(white)
+paddle_speed:30
+paddle_width:460
+block_definitions:definitions/magen_david_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:18
+START_BLOCKS
+---B---
+BBBBBBB
+-B---B-
+BBBBBBB
+---B---
+END_BLOCKS
+END_LEVEL
+
+
+# Level 2
+# Wide paddle with many balls
+
+START_LEVEL
+level_name: Menora
+ball_velocities:-60,50 45,50
+background:color(black)
+paddle_speed:100
+paddle_width:55
+block_definitions:definitions/menora_definition.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:45
+START_BLOCKS
+O-O-O-O-O-O-O
+O-O-O-O-O-O-O
+O-O-O-O-O-O-O
+O-O-O-O-O-O-O
+OOOOOOOOOOOOO
+-----OO-----
+-----OO-----
+END_BLOCKS
+END_LEVEL
+
